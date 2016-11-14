@@ -34,10 +34,9 @@ Gem::Specification.new do |spec|
   spec.test_files = []
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport', '= 5.0.0.1'
+  spec.add_development_dependency "rails", ">=4"
   spec.add_development_dependency 'bundler', '~> 1.9'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.2'
+  spec.add_development_dependency "rake", '~> 11.2'
+  spec.add_development_dependency "rspec-rails", '~> 3.5'
   spec.add_development_dependency 'simplecov', '~> 0.10'
-  spec.add_development_dependency 'coveralls', '~> 0.8'
 end

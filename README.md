@@ -7,13 +7,14 @@
 # Thailand
 
 Provinces, districts and subdistricts of Thailand
+Special thanks to: https://github.com/kiterminal/thailand/
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'thailand'
+gem 'thailand', git: 'https://github.com/songsuke/thailand'
 ```
 
 And then execute:
